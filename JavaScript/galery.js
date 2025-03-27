@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     // Load album data from JSON file
     async function loadAlbums() {
         try {
-            const response = await fetch("../Data/galery.json");
+            const response = await fetch("Data/galery.json");
             albums = await response.json();
             displayAlbums();
         } catch (error) {
