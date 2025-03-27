@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../Data/events.json")
+    fetch("Data/events.json")
         .then(response => response.json())
         .then(events => {
             const eventList = document.getElementById("events-list");
