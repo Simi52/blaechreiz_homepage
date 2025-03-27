@@ -1,0 +1,69 @@
+/* Gallery Page Header */
+.gallery-header {
+    background-color: darkred;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+/* Album List */
+#album-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.album-card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+}
+
+.album-card:hover {
+    background-color: #f0f0f0;
+}
+
+/* Gallery Grid */
+/* Gallery Grid - Images should wrap dynamically */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    justify-items: center;
+}
+
+/* Images should fit nicely inside the grid */
+.gallery-grid img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    object-fit: cover; 
+}
+
+
+/* Back Button */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}

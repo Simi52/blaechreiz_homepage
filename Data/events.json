@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Usestuehlete",
+        "date": "2025-06-13",
+        "time": "16:00",
+        "location": "Markgasse Muri",
+        "description": ""
+    },
+    {
+        "name": "Example Event",
+        "date": "2024-06-10",
+        "time": "19:00",
+        "location": "Downtown Hall",
+        "description": "An evening of live music and entertainment."
+    }
+]

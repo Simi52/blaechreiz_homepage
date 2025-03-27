@@ -1,0 +1,32 @@
+/* Events Page Header */
+.events-header {
+    background-color: darkred;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+/* Event List Styling */
+#events-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.event-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h2 {
+    font-family: 'Oswald', sans-serif;
+    color: darkred;
+}
+
+.event-card p {
+    margin: 5px 0;
+}
