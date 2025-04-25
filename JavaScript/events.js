@@ -22,11 +22,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     });
                     eventCard.classList.add("event-card");
                     eventCard.innerHTML = `
-                        <h2>${event.name}</h2>
-                        <p><strong>Datum:</strong> ${formattedDate}</p>
-                        <p><strong>Zeit:</strong> ${event.time}</p>
-                        <p><strong>Ort:</strong> ${event.location}</p>
-                        <p>${event.description}</p>
+                        <div class="event-text">
+                            <h2>${event.name}</h2>
+                            <p><strong>Datum:</strong> ${formattedDate}</p>
+                            <p><strong>Zeit:</strong> ${event.time}</p>
+                            <p><strong>Ort:</strong> ${event.location}</p>
+                            <p>${event.description}</p>
+                        </div>
+                        ${event.image ? `<img src="${event.image}" alt="${event.name}" class="event-image">` : ""}
                     `;
                     eventList.appendChild(eventCard);
                 });
