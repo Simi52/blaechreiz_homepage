@@ -30,3 +30,10 @@
 .event-card p {
     margin: 5px 0;
 }
+
+.event-image {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    object-fit: cover;
+}
