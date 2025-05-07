@@ -8,6 +8,14 @@
         "image": "../images/Musik-brunch.png"
     },
     {
+        "name": "Frühlingsfest pflegimuri",
+        "date": "2025-05-24",
+        "time": "15:00",
+        "location": "pflegimuri, Muri",
+        "description": "Live Musik & vieles mehr",
+        "image": "../images/fruehlingskonzert.png"
+    },
+    {
         "name": "Usestuehlete",
         "date": "2025-06-13",
         "time": "ab 16:00",
