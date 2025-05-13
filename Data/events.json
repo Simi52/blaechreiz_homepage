@@ -1,0 +1,33 @@
+[
+    { 
+        "name": "Musik-Brunch",
+        "date": "2024-05-24",
+        "time": "09:30-13:30",
+        "location": "Café-Konditorei Kreyenbühl, Muri",
+        "description": "Live Musik & Buffet à discretion",
+        "image": "../images/Musik-brunch.png"
+    }, 
+    {
+        "name": "Frühlingsfest pflegimuri",
+        "date": "2025-05-24",
+        "time": "15:00",
+        "location": "pflegimuri, Muri",
+        "description": "Live Musik & vieles mehr",
+        "image": "../images/fruehlingskonzert.png"
+    },
+    {
+        "name": "Usestuehlete",
+        "date": "2025-06-13",
+        "time": "ab 16:00",
+        "location": "Marktgasse Muri",
+        "description": "", 
+        "image": "../images/Usestuehlete_Flyer.jpg"
+    },
+    {
+        "name": "Example Event",
+        "date": "2024-06-10",
+        "time": "19:00",
+        "location": "Downtown Hall",
+        "description": "An evening of live music and entertainment."
+    }
+]

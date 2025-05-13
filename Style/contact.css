@@ -1,0 +1,35 @@
+/* 🔴 Header Styling */
+.contact-header {
+    background-color: darkred;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+/* 📩 Contact Section Styling  */
+.contact-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.email-link {
+    font-size: 18px;
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}

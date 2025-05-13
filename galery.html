@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style/galery.css">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <a href="index.html">Startseite</a>
+            <a href="events.html">Events</a>
+            <a href="galery.html" class="active">Galerie</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <!-- Gallery Title -->
+    <section class="gallery-header">
+        <h1>Galerie</h1>
+    </section>
+
+    <!-- Albums List -->
+    <main>
+        <section id="album-list">
+            <!-- Albums will be loaded here -->
+        </section>
+
+        <section id="image-gallery" style="display: none;">
+            <h2 id="album-title"></h2>
+            <div class="gallery-grid" id="gallery-grid"></div>
+            <button onclick="goBack()">Zurück</button>
+        </section>
+    </main>
+
+    <script src="JavaScript/galery.js"></script>
+</body>
+</html>

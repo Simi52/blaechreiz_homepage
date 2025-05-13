@@ -1,0 +1,52 @@
+{
+    "albums": [
+        {
+            "name": "Fasnacht 2025",
+            "count": 22
+        },
+        {
+            "name": "Fasnacht 2024",
+            "count": 18
+        },
+        {
+            "name": "Fasnacht 2023",
+            "count": 16
+        },
+        {
+            "name": "Tattoo Muri 2022",
+            "count": 31
+        },
+        {
+            "name": "Fasnacht 2020",
+            "count": 77
+        },
+        {
+            "name": "Fasnacht 2019",
+            "count": 40
+        },
+        {
+            "name": "Fasnacht 2018",
+            "count": 25
+        },
+        {
+            "name": "Fasnacht 2017",
+            "count": 16
+        },
+        {
+            "name": "Energie Forum 2017",
+            "count": 18
+        },
+        {
+            "name": "Fasnacht 2016",
+            "count": 15
+        },
+        {
+            "name": "Fasnacht 2015",
+            "count": 24
+        },
+        {
+            "name": "Fasnacht 2014",
+            "count": 27
+        }
+    ]
+}
