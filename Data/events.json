@@ -32,6 +32,22 @@
         "image": "../images/Matinee_26.jpeg"
     },
     {
+        "name": "Schmudo",
+        "date": "2026-02-12",
+        "time": "Ganzer Tag",
+        "location": "Muri",
+        "description": "An verschiedenen Orten in Muri", 
+        "image": ""
+    },
+    {
+        "name": "Fasnachtsgottesdienst",
+        "date": "2026-02-15",
+        "time": "10:00",
+        "location": "Boswil",
+        "description": "", 
+        "image": ""
+    },
+    {
         "name": "Example Event",
         "date": "2024-06-10",
         "time": "19:00",
