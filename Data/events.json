@@ -24,6 +24,14 @@
         "image": "../images/Usestuehlete_Flyer.jpg"
     },
     {
+        "name": "Matinée",
+        "date": "2026-02-01",
+        "time": "10:30",
+        "location": "Garage Schöpfer Muri",
+        "description": "Komm auf unser Traumschiff der Liebe zu einem leicht bekömmlichen Buffet, spielen wir Melodien zum träumen, tanzen und singen.", 
+        "image": "../images/Matinee_26.jpeg"
+    },
+    {
         "name": "Example Event",
         "date": "2024-06-10",
         "time": "19:00",
