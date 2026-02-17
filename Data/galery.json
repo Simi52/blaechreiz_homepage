@@ -1,13 +1,10 @@
 {
     "albums": [
         {
-<<<<<<< HEAD
             "name": "Fasnacht 2026",
             "count": 42
         },
         {
-=======
->>>>>>> d7beb0c6e0b3674d398f9dd317cbc91cb8a40ee6
             "name": "Fasnacht 2025",
             "count": 22
         },
