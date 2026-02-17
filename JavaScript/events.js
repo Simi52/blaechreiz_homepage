@@ -5,6 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
             const eventList = document.getElementById("events-list");
             const today = new Date();
             today.setHours(0, 0, 0, 0);
+<<<<<<< HEAD
+=======
+            
+>>>>>>> d7beb0c6e0b3674d398f9dd317cbc91cb8a40ee6
             // Filter future events
             const upcomingEvents = events.filter(event => new Date(event.date) >= today);
 

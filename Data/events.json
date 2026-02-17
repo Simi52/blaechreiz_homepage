@@ -1,15 +1,26 @@
 [
+<<<<<<< HEAD
     { 
+=======
+    {
+>>>>>>> d7beb0c6e0b3674d398f9dd317cbc91cb8a40ee6
         "name": "Musik-Brunch",
         "date": "2024-05-24",
         "time": "09:30-13:30",
         "location": "Café-Konditorei Kreyenbühl, Muri",
         "description": "Live Musik & Buffet à discretion",
         "image": "../images/Musik-brunch.png"
+<<<<<<< HEAD
     }, 
     {
         "name": "Frühlingsfest pflegimuri",
         "date": "2025-05-25",
+=======
+    },
+    {
+        "name": "Frühlingsfest pflegimuri",
+        "date": "2025-05-24",
+>>>>>>> d7beb0c6e0b3674d398f9dd317cbc91cb8a40ee6
         "time": "15:00",
         "location": "pflegimuri, Muri",
         "description": "Live Musik & vieles mehr",
@@ -24,6 +35,33 @@
         "image": "../images/Usestuehlete_Flyer.jpg"
     },
     {
+<<<<<<< HEAD
+=======
+        "name": "Matinée",
+        "date": "2026-02-01",
+        "time": "10:30",
+        "location": "Garage Schöpfer Muri",
+        "description": "Komm auf unser Traumschiff der Liebe zu einem leicht bekömmlichen Buffet, spielen wir Melodien zum träumen, tanzen und singen.", 
+        "image": "../images/Matinee_26.jpeg"
+    },
+    {
+        "name": "Schmudo",
+        "date": "2026-02-12",
+        "time": "Ganzer Tag",
+        "location": "Muri",
+        "description": "An verschiedenen Orten in Muri", 
+        "image": ""
+    },
+    {
+        "name": "Fasnachtsgottesdienst",
+        "date": "2026-02-15",
+        "time": "10:00",
+        "location": "Boswil",
+        "description": "", 
+        "image": ""
+    },
+    {
+>>>>>>> d7beb0c6e0b3674d398f9dd317cbc91cb8a40ee6
         "name": "Example Event",
         "date": "2024-06-10",
         "time": "19:00",

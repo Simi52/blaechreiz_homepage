@@ -20,9 +20,12 @@ def rename_images(directory):
         os.rename(old_path, new_path)
         print(f"Renamed: {file} -> {new_name}")
 
+<<<<<<< HEAD
 # Run the renaming function
 # rename_images(folder_path)
 
+=======
+>>>>>>> d7beb0c6e0b3674d398f9dd317cbc91cb8a40ee6
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Rename images in a folder.")
     parser.add_argument("folder", help="Path to the folder containing images")
