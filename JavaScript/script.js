@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(events => {
                 console.log("Events loaded:", events);
                 const today = new Date();
-
+                today.setHours(0, 0, 0, 0);
                 // Filter future events and sort by date
                 const upcomingEvents = events
                     .filter(event => new Date(event.date) >= today)
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     eventDetails.innerHTML = `
                         <strong>${nextEvent.name}</strong><br>
-                        ${formattedDate} um ${nextEvent.time}<br>
+                        ${formattedDate}, ${nextEvent.time}<br>
                         ${nextEvent.location}<br>
                         ${nextEvent.description}
                     `;

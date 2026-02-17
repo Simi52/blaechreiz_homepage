@@ -1,6 +1,10 @@
 {
     "albums": [
         {
+            "name": "Fasnacht 2026",
+            "count": 42
+        },
+        {
             "name": "Fasnacht 2025",
             "count": 22
         },

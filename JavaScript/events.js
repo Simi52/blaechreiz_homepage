@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(events => {
             const eventList = document.getElementById("events-list");
             const today = new Date();
-
+            today.setHours(0, 0, 0, 0);
             // Filter future events
             const upcomingEvents = events.filter(event => new Date(event.date) >= today);
 
