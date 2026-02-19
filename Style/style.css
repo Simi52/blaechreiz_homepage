@@ -42,14 +42,14 @@ header nav a.active {
 .hero {
     position: relative;
     height: 800px;
-    background-image: url('../images/background.jpg');
+    background-image: url('../Gallery/Fasnacht\ 2026/image35.png');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
-    color: white;
+    color: darkred;
 }
 
 .hero-text {
@@ -57,10 +57,11 @@ header nav a.active {
     background-color: rgba(0, 0, 0, 0.0); /* Semi-transparent black overlay */
     padding: 30px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 .hero h1 {
-    font-size: 80px;
+    font-size: 90px;
     margin-bottom: 20px;
 }
 
@@ -77,6 +78,20 @@ section {
     font-size: 22px; /* Bigger text */
     padding: 60px 20px; /* More spacing */
     text-align: center;
+}
+
+.flyer {
+    width: 100%;
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.flyer img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .impressions {
