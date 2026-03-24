@@ -29,7 +29,7 @@ Anschliesend Name des Ordners und Anzahl Bilder in Datei 'Data/galery.json' ange
 # Git – Kurze Einführung
 Repository herunterladen (clone)
 ```bash
-git clone <REPOSITORY-URL>
+git clone https://github.com/Simi52/blaechreiz_homepage.git
 ```
 Änderungen holen (bevor du arbeitest, immer zuerst):
 ```bash
@@ -41,3 +41,5 @@ git add .
 git commit -m "Beschreibung der Änderung"
 git push origin main
 ```
+Im Prinzip mehrere branches möglich, der 'main' branch ist automatisch nach einigen Minuten auch online unter blaechreiz.ch.
+
